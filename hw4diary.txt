@@ -1,0 +1,189 @@
+****************************************************************
+		array_count9[{7 45 9 89 45 9 3 9 1 }]=3
+		array_count9[{9 9 9 9 }]=4
+		array_count9[{93 94 95 96 97 98 99 }]=0
+		array_count9[{9 0 1 0 9 }]=2
+		array_count9[{0 }]=0
+		array_count9[{9 0 1 0 9 }]=2
+		array_count9[{0 }]=0
+		array_count9[{1 2 9 }]=1
+		array_count9[{9 }]=1
+		array_count9[{-9 }]=0
+		array_count9[{-999 -9999 9999 999 }]=0
+		array_count9[{0 0 }]=0
+		array_count9[{}]=0
+		array_count9[{9 9 9 9 9 }]=5
+e = 0
+ans = 0
+****************************************************************
+       array_front9(1,2,9,3,4,)1 = 1
+       array_front9(3,7,9,9,)1 = 1
+       array_front9(4,11,8,6,99,12,)0 = 0
+       array_front9(9,19,29,9,)1 = 1
+       array_front9(0,5,7,9,9,12,)1 = 1
+       array_front9(11,1,21,30,)0 = 0
+       array_front9(9,9,9,)1 = 1
+       array_front9(9,5,)1 = 1
+       array_front9(6,2,7,3,)0 = 0
+       array_front9(9999,999,99,9,)1 = 1
+       array_front9(-9,10,12,15,)0 = 0
+       array_front9(9,9,)1 = 1
+****************************************************************
+bigDiff(4   36   32)==32
+bigDiff(5   4   3)==2
+bigDiff(3)==0
+bigDiff(6    6  10)==4
+bigDiff(5   6   7)==2
+bigDiff(8    9   11)==3
+bigDiff(100    34     5     2)==98
+bigDiff(2   2   1)==1
+bigDiff(0   0   7)==7
+bigDiff(8     8  400)==392
+bigDiff(23   34   22)==12
+bigDiff(-25    -50  100)==150
+bigDiff(50    3)==47
+e = 0
+ans = 0
+****************************************************************
+biggerTwo([1   2], [3   4]) = [3   4]
+
+biggerTwo([4], [1   3   5]) = [1   3   5]
+
+biggerTwo([3   4], [1   2]) = [3   4]
+
+biggerTwo([1   1], [1   2]) = [1   2]
+
+biggerTwo([2   1], [1   1]) = [2   1]
+
+biggerTwo([2   2], [1   3]) = [2   2]
+
+biggerTwo([1   3], [2   2]) = [1   3]
+
+biggerTwo([6   7], [1   3]) = [6   7]
+
+biggerTwo([-4    3], [-3    2]) = [-4    3]
+
+biggerTwo([-1   -1], [1   1]) = [1   1]
+
+biggerTwo([-10     1], [9   1]) = [9   1]
+
+biggerTwo([-5   -6], [-7   -2]) = [-7   -2]
+
+biggerTwo([-5.2        4.3], [8.8        9.2]) = [8.8        9.2]
+
+biggerTwo([1   2   3   4   5   6], [1   2   3]) = [1   2   3   4   5   6]
+
+biggerTwo([0   0], [0   0   0]) = [0   0]
+
+biggerTwo([], [1]) = [1]
+
+biggerTwo([], []) = []
+
+biggerTwo([0.5], [2.5]) = [2.5]
+
+biggerTwo([1.4142], [2.2361]) = [2.2361]
+
+Failures: 0
+****************************************************************
+      cigarParty(50,0)=1
+      cigarParty(30,0)=0
+      cigarParty(70,1)=1
+      cigarParty(30,1)=0
+      cigarParty(40,0)=1
+      cigarParty(80,1)=1
+      cigarParty(59,0)=1
+      cigarParty(0,1)=0
+      cigarParty(39,1)=0
+      cigarParty(-50,0)=0
+      cigarParty(60,1)=1
+      cigarParty(0,0)=0
+      cigarParty(90,1)=1
+      cigarParty(90,0)=0
+      cigarParty(200000,0)=0
+      cigarParty(200000,1)=1
+      cigarParty(-10,1)=0
+      cigarParty(60,0)=1
+      cigarParty(39,1)=0
+      cigarParty(60,0)=0
+      cigarParty(32,0)=0
+
+Errors: 0
+
+****************************************************************
+commonTwo(acx,bcdx)=2
+commonTwo(acx,abcxz)=3
+commonTwo(abc,abc)=3
+commonTwo(aabbc,abc)=3
+commonTwo(aabbc,aabbc)=3
+commonTwo(aabbc,abbcc)=3
+commonTwo(bbbbc,abbbc)=2
+commonTwo(abccd,abbcdd)=4
+commonTwo(aabbc,bbb)=1
+commonTwo(aabbc,cc)=1
+commonTwo($^v,$$)=1
+commonTwo(aabb,aabbdd)=2
+commonTwo(,)=0
+commonTwo(a,ab)=1
+commonTwo(a,b)=0
+ans = 0
+****************************************************************
+        fibonacci(0)->0
+        fibonacci(1)->1
+        fibonacci(2)->1
+        fibonacci(3)->2
+        fibonacci(4)->3
+        fibonacci(5)->5
+        fibonacci(6)->8
+        fibonacci(7)->13
+        fibonacci(8)->21
+        fibonacci(9)->34
+        fibonacci(10)->55
+        fibonacci(11)->89
+ans = 0
+****************************************************************
+ intMax(1,2,3)=3
+ intMax(12,44,15)=44
+ intMax(98,75,20)=98
+ intMax(111,2000,8956)=8956
+ intMax(30,40,5000)=5000
+ intMax(111,1111,11111)=11111
+ intMax(7463837,9287230949,90238)=9287230949
+ intMax(0,0,1)=1
+ intMax(1,1,1)=1
+ intMax(0,0,0)=0
+ intMax(1,2,10)=10
+ intMax(1,1,2)=2
+ans = 0
+****************************************************************
+      isPrime(1)=0
+      isPrime(2)=1
+      isPrime(3)=1
+      isPrime(12)=0
+      isPrime(10)=0
+      isPrime(100)=0
+      isPrime(7)=1
+      isPrime(13)=1
+      isPrime(53)=1
+      isPrime(97)=1
+      isPrime(20)=0
+      isPrime(16)=0
+      isPrime(70)=0
+      isPrime(103)=1
+      isPrime(0)=0
+      isPrime(2621)=1
+      isPrime(-9)=0
+ans = 0
+****************************************************************
+        stringE() -> 0
+        stringE(abecd) -> 1
+        stringE(abeecd) -> 1
+        stringE(abecde) -> 1
+        stringE(eabcde) -> 1
+        stringE(eee) -> 1
+        stringE(eEeabcde) -> 1
+        stringE(eeabecde) -> 0
+        stringE(This is a string) -> 0
+        stringE(EEEEE) -> 0
+        stringE(eeeeeeee) -> 0
+ans = 0
+****************************************************************
